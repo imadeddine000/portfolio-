@@ -4,12 +4,8 @@ const projects = [
         description: "ReactNative(expo),react-native-paper,tailwindcss,firebase",
         link: "https://play.google.com/store/apps/details?id=com.imadeddinekebour.pyyplshop",
     },
-    {
-        title: "Project 2",
-        description: "Description of Project 2",
-        link: "https://example.com/project2",
-    },
-    // Add more project objects as needed
+    
+    
 ];
 function createProjectElements(projects) {
     const projectsSection = document.getElementById('projects');
@@ -36,5 +32,5 @@ function createProjectElements(projects) {
     });
 }
 
-// Call the function to populate the Projects section with the projects
+
 createProjectElements(projects);
